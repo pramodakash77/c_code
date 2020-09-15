@@ -1,5 +1,5 @@
 #include <stdio.h>
-int main() {
+void palin() {
     int n, reversedN = 0, remainder, originalN;
     printf("Enter an integer: ");
     scanf("%d", &n);
@@ -14,9 +14,9 @@ int main() {
 
     // palindrome if orignalN and reversedN are equal
     if (originalN == reversedN)
-        printf("%d is a palindrome.", originalN);
+        printf("%d is a palindrome.\n", originalN);
     else
-        printf("%d is not a palindrome.", originalN);
+        printf("%d is not a palindrome.\n", originalN);
 
-    return 0;
+   // return 0;
 }
